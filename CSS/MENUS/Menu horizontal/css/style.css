@@ -1,0 +1,65 @@
+ul, li, div{
+    padding: 0px;
+    margin: 0px;
+}
+
+#caixa_menu{
+    width: 600px;
+    height: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    width:inherit;
+    height:inherit;
+    background-color: black;
+}
+
+.menu_itens{
+    width: 150px;
+    height:inherit;
+    background-color:darkslategray;
+    font-family: verdana;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    /* Trava o tamanho do elemento fazendo com q o padding não altere o tamanho original */
+    box-sizing: border-box;
+    float: left;
+/* Ou display: inline-block; ~porém ele cria alguns espaçamentos a mais */
+    list-style: none;
+}
+
+.menu_itens:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.submenu{
+    width: 150px;
+    min-height: 50px;
+    height: auto;
+    margin-top: 18px;
+    display: none;
+}
+
+.submenu_itens{
+    width: inherit;
+    height: 50px;
+    background-color:darkslategray;
+    list-style: none;
+    box-sizing: border-box;
+    padding-top: 15px;   
+}
+
+.submenu_itens:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.menu_itens:hover > .submenu{
+    display: block;
+} 

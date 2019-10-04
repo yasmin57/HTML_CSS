@@ -1,0 +1,520 @@
+p, div, h1, li, ul, h2, body, h3, a, h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1a1d23;
+}
+
+#base, #base2, #base3{
+   width: 1400px;
+   height: 4875px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white; 
+}
+
+#base2{
+  height: 2575px; 
+}
+
+#base3{
+  height: 5250px; 
+}
+
+#conteudo, #conteudo2, #conteudo3{
+    width: inherit;
+    height: 4490px;
+    background-color: white;
+}
+
+#conteudo2{
+   height: 2290px; 
+}
+
+#conteudo3{
+   height: 4865px; 
+}
+
+#rodape{
+  width:inherit;
+  height: 160px;
+  background-color: black;   
+}
+
+#parceria{
+    width: 350px;
+    min-height: 50px;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+
+#cabecalho {
+   width:inherit;
+   height: 225px;
+   background-color: black;    
+}
+
+#caixa_menu{
+  width: 420px;
+  height: 30px;  
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 800px;    
+}
+
+#menu{
+  width: inherit;
+  height: inherit;    
+}
+
+.menu_itens{
+  min-width: 140px;
+  width: auto;  
+  height: inherit;  
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px; 
+  color: white;    
+  float: left;   
+  box-sizing: border-box;
+  padding-top: 4px;  
+  list-style: none;
+  text-decoration: none;  
+}
+
+.menu_itens:hover{
+    cursor: pointer;
+    background-color: #8c090e;
+}
+
+.submenu{
+    width: inherit;
+    min-height: 105px;
+    margin-top: 26px;
+    display: none;
+    background-color: black;
+}
+
+.submenu_itens {
+   width: inherit;
+   height: 35px;
+   list-style: none;
+   box-sizing: border-box;
+   padding-top: 7px;  
+   font-family: "Lato", sans-serif;
+   font-size: 18px; 
+   color: white;
+   text-decoration: none;   
+}
+
+.submenu_itens:hover{
+    cursor: pointer;
+    background-color: #8c090e;
+}
+
+.menu_itens:hover > .submenu{
+    display: block;
+} 
+
+#redes_sociais,  #redes_sociais2 {
+   width: 156px;
+   height: 32px;
+   float: left; 
+   margin-top: 10px;    
+}
+
+#r1, #rs1, #icon1{
+    background-image: url(../icones/snap.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#r2, #rs2, #icon2{
+    background-image: url(../icones/twitter.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#r3, #rs3, #icon3{
+    background-image: url(../icones/instagram.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#r4, #rs4, #icon4{
+    background-image: url(../icones/face.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#icon1, #icon2, #icon3, #icon4{
+    border-radius: 0px;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.tamanho_redes, #r1, r2, r3,r4{
+   width: 32px;
+   height:inherit; 
+   margin-right: 7px; 
+   float: left;    
+}
+
+#icon_nome{
+   width: 375px;
+   height:60px;
+   margin-top: 39px;
+   margin-left: 550px;    
+   float: left;    
+}
+
+#icon{
+   width: 60px;
+   height: 60px; 
+   background-image: url(../icones/chile.png);
+   background-size: cover;
+   float: left; 
+}
+
+#nome{
+   width: 315px;
+   height: 60px;
+   text-align: center; 
+   padding-top: 3px; 
+   box-sizing: border-box; 
+}
+
+#nome h1{
+    color: white;
+    font-family: combria, verdana;
+    font-size: 40px;
+}
+
+#redes_sociais2 {
+    margin-left: 855px;
+}
+
+#redes_sociais3{
+    height: 80px;
+    width: 366px;
+    float: left;
+    margin-left: 170px;
+}
+
+.caixa{
+    width: 168px;
+    height: 36px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.linha{
+    width: 132px;
+    height: 36px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+/* Estilização de textos */
+h1, h2, h3, .h4{
+    font-family:"Lato", sans-serif;
+    font-size: 35px;
+    color: black;    
+}
+
+h2{
+    font-size: 30px;
+    color: brown;
+}
+
+h3{
+    font-size: 25px;
+    color: #173082;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    color: black; 
+    margin-bottom: 10px;
+}
+
+.h3{
+  font-family:"Lato", sans-serif;
+  font-size: 14px;
+  color: white; 
+  margin-left: 5px;  
+  margin-top: 10px;
+  margin-bottom: 0px;  
+}
+
+.h4{
+  font-size: 20px;
+  text-decoration: none; 
+}
+
+#margem{
+   margin-left: 17px;
+}
+/* Estilização de imagens - Direita */
+.parte_esquerda{
+    width: 1000px;
+    height:inherit;
+    float: left;
+    margin-left: 200px;
+}
+.img_grande1, .img_grande2{
+    height: 450px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.img_grande2{
+    height: 470px;
+    width: 730px;
+    margin-left: 124px;
+}
+
+.img_media, .img_pequena{
+    height: 300px;
+    width: 230px;
+    margin-left: 380px;
+    margin-right: 5px;
+    margin-top: 20px;
+    float: left;
+    background-size: cover;
+}
+.img_pequena{
+    height: 280px;
+    width: 320px;
+}
+
+.img_retan{
+    height: 40px;
+    width: 500px;
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.img_retan2{
+    height: 166px;
+    width: 250px;
+    background-size: cover;
+    float: left;
+    margin-top: 5px;
+    margin-left: 373px;
+}
+
+/* conteudo */
+.titulo_principal, .titulo_principal2{
+  width: inherit;
+  text-align: center;
+  height: 45px;
+  margin-bottom: 15px;   
+  margin-top: 50px;
+}
+
+.titulo, .titulo1, .titulo2{
+  min-width: 50px;
+  width: auto; 
+  margin-top: 25px;  
+  margin-left: 50px;  
+}
+
+.cor{
+    color: #173082;
+}
+
+#valle, #geiser, #laguna, #pascoa, #valleN{
+    background-image: url(../img/Valle.png);
+    background-size: cover;
+}
+
+#geiser{
+  background-image: url(../img/Geiser.png);  
+}
+
+#laguna{
+  background-image: url(../img/laguna.png);  
+}
+
+#pascoa{
+  background-image: url(../img/pascoa.png);  
+}
+
+#valeN{
+  background-image: url(../img/valleN.png);  
+}
+
+#pucon{
+  background-image: url(../img/pucon.png);  
+}
+
+.texto, .texto1, .texto2, .texto3, .texto4, .texto5{
+  width: 900px;
+  min-height: 10px; 
+  height: auto;
+  text-align:left;  
+  margin-top: 500px;  
+  margin-left: 50px;  
+  margin-bottom: 5px;  
+}
+
+.titulo1{
+    margin-top: 20px;
+}
+
+.titulo2{
+    float: left;
+    margin-top: 305px;
+    margin-left: -235px;
+}
+
+#muda{
+   margin-left: -300px; 
+}
+
+/* Curiosidades */
+#moeda1{
+    background-image: url(../img/moeda1.png);
+}
+
+#moeda3{
+    background-image: url(../img/moeda3.png);
+}
+
+#pop1{
+   background-image: url(../img/pop1.png); 
+}
+
+#pop2{
+   background-image: url(../img/pop2.png); 
+}
+
+#custo1{
+   background-image: url(../img/custo1.png); 
+}
+
+#custo2{
+   background-image: url(../img/custo2.png); 
+}
+
+#custo3{
+   background-image: url(../img/custo3.png); 
+}
+
+#custo4{
+   background-image: url(../img/custo4.png); 
+}
+.texto1{
+    margin-top: 476px;
+}
+
+.texto2{
+    margin-top: 10px;
+}
+
+.texto3{
+    margin-top: 100px;
+}
+
+.texto4{
+    margin-top: 350px;
+}
+
+.texto5{
+    margin-top: 182px;
+}
+.titulo_principal2{
+    margin-top: 20px;
+}
+
+/* Pagina Inicial */
+#home1{
+   background-image: url(../img/home1.png); 
+}
+
+#home2{
+   background-image: url(../img/home2.png);    
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #valparaiso, #vina, #andes{
+   background-image: url(../img/img1.PNG);
+   float: left;
+   margin-left: 5px;
+   margin-right: 5px; 
+   margin-bottom: 5px;
+   margin-top: 5px; 
+}
+#valparaiso{
+  background-image: url(../img/valparaiso.png);   
+}
+
+#vina{
+  background-image: url(../img/vina.png);  
+}
+
+#andes{
+  background-image: url(../img/andes.png);  
+}
+
+#img2{
+   background-image: url(../img/img2.PNG); 
+}
+#img3{
+   background-image: url(../img/img3.PNG); 
+}
+#img4{
+   background-image: url(../img/img4.PNG); 
+}
+#img5{
+   background-image: url(../img/img5.PNG); 
+}
+#img6{
+   background-image: url(../img/img6.PNG); 
+}
+#img7{
+   background-image: url(../img/img7.PNG); 
+}
+#img8{
+   background-image: url(../img/img8.PNG); 
+}
+#img9{
+   background-image: url(../img/img9.PNG); 
+}
+
+#caixa2{
+    width: 350px;
+    height: 100px;
+    float: left;
+    margin-left: 650px;
+    margin-top: 4px;
+}
+#frase{
+    height: inherit;
+    width: 250px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+#icone{
+    height: inherit;
+    width: 100px;
+    float: left;
+    background-image: url(../icones/insta.png);
+    background-size: cover;
+}

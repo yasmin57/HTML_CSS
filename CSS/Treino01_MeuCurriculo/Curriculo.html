@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>
+            Meu Currículo
+        </title>
+        <meta charset="utf-8"/>
+        <style>
+            /* Padronização */
+            *{
+                padding: 0px;
+                margin:  0px;
+            }
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .conteudo{
+                width: 1200px;
+                height: 1800px;
+                background-color: white;
+                box-sizing: border-box;
+                padding-top: 50px;
+            }
+            body{
+                background-color:#e0d2cc;  
+            }
+            .caixa_titulo, .caixa_titulo2{
+                height: 45px;
+                width: 17%;
+                font-size: 25px;
+                color: white;
+                box-sizing: border-box;
+                padding-top: 8px;
+                text-align: center;
+                font-family: sans-serif;
+                background-color: #01842f;
+            }
+            .caixa_titulo2{
+               width: 32%; 
+            }
+            p{
+              text-align: center;
+                font-family: sans-serif;  
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .caixa_linha_titulo{
+               height: 80px;
+                width: inherit; 
+            }
+            .floatlef{
+                float: left;
+            }
+            .floatrig{
+                float: right;
+            }
+            .txtlef{
+                text-align: left;
+            }
+            .txtrig{
+                text-align: right;
+            }
+            .info{
+                width: 700px;
+                min-height: 200px;
+                margin-left: 105px;
+                margin-right: 105px;
+            }
+            .espaco{
+                margin-bottom: 50px;
+            }
+            /* Topo da página */
+            #table{
+                height: 230px;
+                width: 675px;
+            }
+            .tr{
+                width: inherit;
+                height: 115px;
+            }
+            /*  Parte superior da tabela 
+            (Nome, Nacionalidade, Estado Civil, idade) */
+            #td_info_sup{
+                width: inherit;
+                height: inherit;
+                background-color:  #6d0000; 
+                color: white;
+                box-sizing: border-box;
+                padding-top: 5px;
+                text-align: center;
+                font-size: 12px;
+            }
+            #td_info_sup h1, h2{
+                margin-bottom: 5px;
+                font-weight: lighter;
+                font-family: "Century Gothic", sans-serif, arial;
+            }
+            /* Parte inferior da tabela */
+            .td_info_inf{
+              width: 225px;
+              height: inherit;
+            }
+            #icon1, #icon2, #icon3{
+                width: 35px;
+                height:35px;
+                background-size: cover;
+                background-image: url(icones/local.png);
+            }
+            #icon2{
+               background-image: url(icones/gmail.png); 
+            }
+            #icon3{
+               background-image: url(icones/tel.png); 
+            }
+            .info_inf_item{
+                height: 65px;
+                width: inherit;
+                font-family: "Century Gothic", sans-serif, arial;
+                text-align: center;
+                font-size: 15px;
+                box-sizing: border-box;
+                padding-top: 4px;
+            }
+            span{
+                width: inherit;
+                margin-right: 39px;
+                margin-left: 36px;
+            }
+            .padding_dif{
+                box-sizing:border-box;
+                padding-top: 15px;
+            }
+            /* Objetivo */
+            #objetivo div:first-child {
+              background-color: #01842f;
+              height: 2px;
+              width: 100%;
+              margin-top: 40px;
+/*              position: absolute;*/
+              float: left;
+            }
+            #objetivo div:last-child {
+              position: absolute;
+              margin-top: 21px;
+              margin-left: 475px;
+            }
+            #objetivo{
+                height: 100px;
+                width: inherit;
+                margin-top: 40px;
+                font-family: "Century Gothic", sans-serif, arial;
+                text-align: center;
+            }
+            /* Cursos */
+            .linha, .linha2{
+                height: 2px;
+                width: 80%;
+                background-color: #01842f;
+                margin-top: 21px;
+            }
+            .linha2{
+               width: 65%; 
+            }
+            .margemtrig{
+                margin-left: 395px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="conteudo center">
+            <!-- Topo da página -->
+            <table id="table" class="center">
+                <tr class="tr">
+                    <td id="td_info_sup" colspan="3">
+                        <h1> Yasmin Pereira da Silva  </h1>
+                        <h2> Brasileira - Solteira - 17 anos</h2>
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td_info_inf">
+                        <div id="icon1" class="center"> </div>
+                        <div class="info_inf_item">
+                            Rua das Plantas, nº 141, Chácara Santa Cecilia,
+                            CEP 06655-740 Itapevi-SP
+                        </div>
+                    </td>
+                    <td class="td_info_inf">
+                        <div id="icon2" class="center"> </div>
+                        <div class="info_inf_item padding_dif"> 
+                            pereirayasmin57@gmail.com 
+                            estudosenai57@gmail.com
+                        </div>
+                    </td>
+                    <td class="td_info_inf">
+                        <div id="icon3" class="center"> </div>
+                        <div class="info_inf_item padding_dif">
+                            <span>Res. (11) 4141-3686</span>
+                            Cel. (11) 9 7287- 4108 
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Objetivo -->
+            <div id="objetivo">
+                <div></div>
+                <div class="caixa_titulo"> Objetivo</div>
+            </div>
+            <p> Desenvolvedor</p>
+            
+            <!-- Cursos  -->
+            <div class="caixa_linha_titulo">
+                <div class="caixa_titulo floatlef"> Cursos </div>
+                <div class="linha floatrig"></div>
+            </div>
+            <div class="info">
+                <p class="txtlef">
+                    Curso de Aprendizagem Industrial (CAI) – Auxiliar de Produção Gráfica 
+                </p>
+                <p class="txtlef">
+                    Instituição: SENAI José Ephim Mindlin
+                </p>
+                <p class="txtlef espaco">
+                    Período: 01/2017 à 12/2018
+                </p>
+                <p class="txtlef"> Curso Técnico – Desenvolvimento de Sistemas</p>
+                <p class="txtlef"> Instituição: SENAI Professor Vicente Amato </p>
+                <p class="txtlef"> Período: 01/2019 à 06/2020 </p>
+                <p class="txtlef espaco"> Cursando: 2º Semestre </p>
+                <p class="txtlef"> Curso de Ensino a Distância (EAD) - Empreender SENAI</p>
+                <p class="txtlef"> Período: 19/08/2019 à 06/09/2019 </p>
+                <p class="txtlef"> Duração: 20 horas </p>
+            </div>
+            
+            <!--   Experiência Profissional-->
+            <div class="caixa_linha_titulo">
+                <div class="caixa_titulo2 floatrig"> Experiência Profissional </div>
+                <div class="linha2 floatlef"></div>
+            </div>
+            <div class="info margemtrig">
+                <p class="txtrig"> Plural Indústria Gráfica LTDA </p>
+                <p class="txtrig"> Função: Aprendiz em Administração </p>
+                <p class="txtrig"> Período: 12/2017 à 12/2018 </p>
+                <p class="txtrig"> Administrado pelo SENAI José Ephim Mindlin </p>
+            </div>
+            
+            <!--  Informações Adicionais -->
+            <div class="caixa_linha_titulo">
+                <div class="caixa_titulo2 floatlef"> Informações Adicionais </div>
+                <div class="linha2 floatrig"></div>
+            </div>
+            <div class="info">
+                <p class="txtlef"> Trabalho voluntário </p>
+                <p class="txtlef"> Período: 20/08/2018 à 31/11/2018 </p>
+                <p class="txtlef"> Administrado pelo SENAI José Ephim Mindlin </p>
+                <p class="txtlef"> Público: Crianças Carentes </p>
+                <p class="txtlef"> Principais Atividades Desenvolvidas: </p>
+                <p class="txtlef"> Doação de Brinquedos;</p>
+                <p class="txtlef"> Doação de Cestas Básicas;</p>
+                <p class="txtlef"> Doação de Lacres.</p>
+            </div>
+        </div>
+    </body>
+</html>

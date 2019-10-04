@@ -1,0 +1,1542 @@
+/* PADRONIZAÇÃO DO SITE */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.conteudo{
+    width: 1500px;
+    height: inherit;
+    background-color: white;
+}
+.video{
+    width: 610px;
+    height: 360px;
+}
+.left{
+    margin-left: 174px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.fundo_img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    font-family: verdana;
+    font-size: 19px;
+    color: goldenrod;
+    text-decoration: none;
+    text-transform: capitalize.
+}
+h1, h2, h3{
+    font-family: verdana;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 26px;
+    text-transform: capitalize;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: verdana;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    width: inherit;
+    min-height: 18px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    color: black;
+}
+.sem_float{
+    clear: both;
+}
+body{
+    background-image: url(../imagens/body.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* CSS PARA O PADRÃO DESKTOP*/
+@media screen and (min-device-width:1200px){
+    .mobile{
+        display: none;
+    }
+    /* SEÇÃO DO MENU */
+    #caixa_menu{
+        width: 100%;
+        height: 153px;
+        background-color: black;
+    }
+    #caixa_menuMob{
+        display: none;
+    }
+    #menu_logo{
+        width: 360px;
+        height: 153px;
+        background-image: url(../imagens/logo.png);
+        float: left;
+        margin-top: -51px;
+    }
+    #menu{
+        float: left;
+        height: 50px;
+        width: 1100px;
+        margin-left: 30px;
+    }
+    #caixa_menu .conteudo{
+        padding-top: 51px;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    .menu_itens{
+        height: inherit;
+        min-width: 50px;
+        width: auto;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px;
+        text-transform: capitalize;
+    }
+
+    /* SEÇÃO DO CABECALHO */
+    header{
+        height: 500px;
+        width: 100%;
+        background-image: url(../imagens/cabecalho.png);
+        background-attachment: fixed;
+    }
+    #seta{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        position: fixed;
+        right:0px;
+        bottom: 300px;
+        margin-right: 10px;
+    /*    border-radius:50px;*/
+    }
+    #seta
+    img {
+        width:80px;
+        height: 80px;
+    }
+    /* SEÇÃO SOBRE O SITE */
+    #sobre{
+        width: 100%;
+        height: 300px;
+        background-color: black;  
+    }
+    #sobre .conteudo{
+        background-color: white; 
+    }
+    .sobre_img{
+        float: left;
+        height: 200px;
+        width: 200px;
+    }
+    #s01{
+        background-image: url(../imagens/sobre.png);
+    }
+    #s02{
+       background-image: url(../imagens/sobre2.png); 
+    }
+    #sobre_texto{
+        float:left;
+        height: 200px;
+        width: 700px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* SEÇÃO PERSONAGENS */
+    #personagens{
+        width: 100%;
+        height: 510px;
+        background-color: black;  
+    }
+    .main-container, #corpo_slider{
+        width: 1152px;
+        height: 480px;
+    }
+
+    .slideshow {
+        height:inherit;
+        width: inherit;
+        overflow: hidden;
+    }
+
+    .slide_selection {
+        width:464px;
+        height:50px;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    .selector {
+        width:50px;
+        height:50px;
+        float:left;
+        margin-right:8px;
+        cursor:pointer;
+        background-color:#360168;
+        border-radius:25px;
+    }
+
+    .slideshowarea {
+        width: 100000px;
+        height: 390px;
+    }
+    .slide {
+        height: 1152px;
+        width: inherit;
+        float: left;
+    }
+    .slide_txt{
+       min-height: 200px;
+       height: auto;
+       width: 500px;
+       float: left;
+       margin-left: 110px;
+       margin-top: 20px;
+       margin-right: 100px;
+    }
+    .slide_txt h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    .slide_img{
+        height: 350px;
+        width: 350px;
+        float: left;
+    }
+    #slide1{
+        background-image: url(../imagens/slide1.png);
+    }
+    #slide2{
+        background-image: url(../imagens/slide2.png);
+    }
+    #slide3{
+        background-image: url(../imagens/slide3.png);
+    }
+    #slide4{
+        background-image: url(../imagens/slide4.png);
+    }
+    #slide5{
+        background-image: url(../imagens/slide5.png);
+    }
+    #slide6{
+        background-image: url(../imagens/slide6.png);
+    }
+    #slide7{
+        background-image: url(../imagens/slide7.png);
+    }
+    #slide8{
+        background-image: url(../imagens/slide8.png);
+    }
+
+
+    /* SEÇÃO FILMES */
+    #filmes{
+        width: 100%;
+        height: 1380px;
+
+    }
+    #filmes h1{
+        margin-bottom: 0px;
+    }
+    .filmes_img{
+        width: 800px;
+        height: 450px;
+    }
+    #f01{
+        background-image: url(../imagens/filmes.png);
+    }
+    #f02{
+        background-image: url(../imagens/filmes2.png);
+    }
+    .filmes_txt{
+        min-height: 50px;
+        height: auto;
+        width: 1152px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    /* SEÇÃO MARVEL */
+    #marvel{
+        width: 100%;
+        height: 720px;
+        background-color: black; 
+    }
+    #marvel_img{
+        width: 1000px;
+        height: 563px;
+        background-image: url(../imagens/marvel.png);
+    }
+    #marvel_txt{
+        width: inherit;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        visibility: hidden;
+        box-sizing: border-box;
+        padding-top: 563px;
+    }
+    #marvel_txt p{
+       color: white;
+    }
+    #marvel_img:hover #marvel_txt{
+        opacity: 1;
+        visibility: visible;
+        padding-top: 80px;
+        transition: 1.5s;   
+    }
+    /* SEÇÃO CURIOSIDADES */
+    #curiosidades{
+        width: 100%;
+        height: 1575px;
+        background-color: black; 
+    }
+    .curiosidades_txt{
+        float: left;
+        min-height: 70px;
+        height: auto;
+        width: 980px;
+        margin-left: 6px;
+         margin-top: 20px;
+    }
+    #curiosidades .conteudo h3{
+        display: none;
+    }
+    .curiosidades_img{
+        float: left;
+        height: 120px;
+        width: 120px;
+        margin-left: 220px;
+    }
+    .curiosidades_txtmobi{
+        display: none;
+    }
+    #c01{
+        background-image: url(../imagens/c.png);
+    }
+    #c02{
+        background-image: url(../imagens/c2.png);
+    }
+    #c03{
+        background-image: url(../imagens/c3.png);
+    }
+    #c04{
+        background-image: url(../imagens/c4.png);
+    }
+    .curiosidades_txt2{
+        min-height: 20px;
+        height: auto;
+        width: 1152px;
+    }
+
+    /* SEÇÃO FANARTS */
+    #fanarts{
+        width: 100%;
+        height: 1380px;
+    }
+    #fan_botao{
+        width: 320px;
+        border-radius: 20px;
+        height: 90px;
+        margin-left: 980px;
+        background-color: black;
+        clear: both;
+        padding-top: 25px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    #fan_botao a{
+        font-family: "Lucida Bright";
+        font-size: 35px;
+    }
+    #fan_botao:hover{
+        background-color: #14171c;
+    }
+    .fan_form1{
+        height: 384px;
+        width: 271px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .fan_form2{
+        height: 384px;
+        width: 563px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #fn01{
+        background-image: url(../imagens/fn1.png);
+    }
+    #fn02{
+        background-image: url(../imagens/fn2.png);
+    }
+    #fn03{
+        background-image: url(../imagens/fn3.png);  
+    }
+    #fn04{
+        background-image: url(../imagens/fn4.png);
+    }
+    #fn05{
+        background-image: url(../imagens/fn5.png);
+    }
+    #fn06{
+        background-image: url(../imagens/fn6.png);  
+    }
+    #fn07{
+        background-image: url(../imagens/fn7.png);
+    }
+    #fn08{
+        background-image: url(../imagens/fn8.png);
+    }
+    #fn09{
+        background-image: url(../imagens/fn9.png);  
+    }
+
+    /* SEÇÃO MÚSICAS */
+    #musicas{
+        width: 100%;
+        height: 1570px;
+        background-color: black;
+    }
+    .audio{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+    #musicas_img, #musicas_img2{
+        width: 1152px;
+        height: 650px;
+        background-image: url(../imagens/musicas.png);
+    }
+    #musicas_img2{
+        background-image: url(../imagens/musicas2.png);
+        margin-top: 30px;
+    }
+    .musicas_fundo{
+        background-color: rgba(0, 0, 0, 0.7); 
+        width: inherit;
+        height: inherit;
+    }
+    .musicas_fundo h2{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .musicas_caixa{
+        width: 524px;
+        height: inherit;
+        margin-left: 26px;
+        margin-right: 26px;
+        float: left;
+    }
+
+
+    /* SEÇÃO HQS*/
+    #hqs{
+        width: 100%;
+        height: 2690px;
+    }
+    .caixa_hqs{
+        width: 1190px;
+        min-height:20px;
+        height: auto;
+    }
+
+    .hqs_itens{
+        text-align: center;
+        height: inherit;
+        width: 200px;
+        float: left;
+        margin-left: 38px;
+        font-weight: bold;
+    }
+    .hqs_itens h1{
+       padding-top: 0px; 
+       box-sizing: border-box;
+       font-size: 30px;
+       margin-bottom: 0px;
+       margin-top: 20px;
+    }
+    .hqs_img{
+        width: 200px;
+        height: 320px;
+        margin-left: 38px;
+        float: left;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* PARTE O1*/
+    #hq_0_1{
+        background-image: url(../imagens/hq0_1.png);
+    }
+    #hq_1{
+        background-image: url(../imagens/hq_1.png);
+    }
+    #hq_2{
+        background-image: url(../imagens/hq_2.png);
+    }
+    #hq_3{
+        background-image: url(../imagens/hq_3.png);
+    }
+    #hq_4{
+        background-image: url(../imagens/hq_4.png);
+    }
+
+    /*PARTE 02 */
+    #hq_5{
+        background-image: url(../imagens/hq_5.png);
+    }
+    #hq_6{
+        background-image: url(../imagens/hq_6.png);
+    }
+    #hq_7{
+        background-image: url(../imagens/hq_7.png);
+    }
+    #hq_8{
+        background-image: url(../imagens/hq_8.png);
+    }
+    #hq_9{
+        background-image: url(../imagens/hq_9.png);
+    }
+
+    /* PARTE 03*/
+    #hq_10{
+        background-image: url(../imagens/hq_10.png);
+    }
+    #hq_11{
+        background-image: url(../imagens/hq_11.png);
+    }
+    #hq_12{
+        background-image: url(../imagens/hq_12.png);
+    }
+    #hq_13{
+        background-image: url(../imagens/hq_13.png);
+    }
+    #hq_14{
+        background-image: url(../imagens/hq_14.png);
+    }
+
+    /*PARTE 04*/
+    #hq_15{
+        background-image: url(../imagens/hq_15.png);
+    }
+    #hq_16{
+        background-image: url(../imagens/hq_16.png);
+    }
+    #hq_17{
+        background-image: url(../imagens/hq_17.png);
+    }
+    #hq_18{
+        background-image: url(../imagens/hq_18.png);
+    }
+    #hq_19{
+        background-image: url(../imagens/hq_19.png);
+    }
+
+    /*PARTE 05*/
+    #hq_20{
+        background-image: url(../imagens/hq_20.png);
+    }
+    #hq_21{
+        background-image: url(../imagens/hq_21.png);
+    }
+    #hq_22{
+        background-image: url(../imagens/hq_22.png);
+    }
+    #hq_23{
+        background-image: url(../imagens/hq_23.png);
+    }
+    #hq_24{
+        background-image: url(../imagens/hq_24.png);
+    }
+
+    /*PARTE 06*/
+    #hq_25{
+        background-image: url(../imagens/hq_25.png);
+    }
+    #hq_26{
+        background-image: url(../imagens/hq_26.png);
+    }
+    #hq_27{
+        background-image: url(../imagens/hq_27.png);
+    }
+    #hq_es{
+        background-image: url(../imagens/hq_es.png);
+    }
+    #hq_p1{
+        background-image: url(../imagens/hq_p1.png);
+    }
+
+    /* SEÇÃO ENTREVISTAS */
+    #entrevistas{
+        width: 100%;
+        height: 1400px;
+        background-color: black;
+    }
+
+    /* SEÇÃO NOTICIAS*/
+    #noticias{
+        width: 100%;
+        height: 1000px;
+    }
+    .noticias_caixa{
+        width: 1152px;
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    .noticias_imagem{
+        height: inherit;
+        width: 352px;
+        float: left;
+    }
+    #n1{
+        background-image: url(../imagens/n1.png);
+    }
+    #n2{
+        background-image: url(../imagens/n2.png);
+    }
+    #n3{
+        background-image: url(../imagens/n3.png);
+    }
+    .noticias_txt{
+        height: inherit;
+        width: 760px;
+        margin-left: 20px;
+        float: left;
+    }
+    #muda{
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    /* SEÇÃO RODAPE */
+    footer{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+    }
+    footer .conteudo{
+        background-color: black;
+    }
+    #caixa_icone{
+        height:50px;
+        width: 210px;
+        box-sizing: border-box;
+        padding-top: 50px;
+        float: left;
+    }
+    .icon{
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rebeccapurple;
+    }
+    .icon:hover{
+        background-color: goldenrod;
+        cursor: pointer;
+    }
+    #i1{
+        background-image: url(../imagens/iconfinder_facebook_square_black_107119.png);
+    }
+    #i2{
+        background-image: url(../imagens/iconfinder_twitter_square_black_107068.png);
+    }
+    #i3{
+        background-image: url(../imagens/iconfinder_instagram_square_black_107097.png);
+    }
+    #logo1, #logo2{
+        float: left;
+        width: 400px;
+        background-size: 360px 100px;
+        background-repeat: no-repeat;
+        height: inherit;
+        margin-top: 25px;
+        margin-left: 244.5px;
+        background-image: url(../imagens/logo1.png);
+    }
+    #logo2{
+        background-size: 360px 130px;
+        margin-right: 244.5px;
+        margin-left: 0px;
+        margin-top: 10px;
+        background-image: url(../imagens/rodape2.png);
+    }
+}
+
+/* ############################################### */
+/* ############################################### */
+
+/* CSS PARA O  PADRÃO MOBILE*/
+
+/* ENTRE 300PX A 700PX */
+@media screen and (min-device-width:300px) and (max-device-width:700px){
+    .apaga{
+        display: none;
+    }
+    h1{
+        font-size: 65px;
+    }
+    p{
+      font-size: 45px;  
+    }
+    h2, h3{
+      font-size: 55px;
+    }
+    h3{
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .centermob, .left{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    /* SEÇÃO DO MENU */
+    #caixa_menu{
+        width: 100%;
+        height: 165px;
+        background-color: black;
+    }
+    #caixa_menu .conteudo{
+        box-sizing: border-box;
+        background-color: black;
+    }
+    #menu{
+        display: none;
+    }
+    #caixa_menuMob{
+        height: inherit;
+        width: 560px;
+    }
+    #menuMobile_logo{
+        width: 360px;
+        height: 153px;
+        background-image: url(../imagens/logo.png);
+        float: left;
+        margin-left: 10px;
+    }
+    #menu_mobile{
+        width: 130px;
+        height: 130px;
+        float: left;
+        margin-top: 11px;
+        background-image: url(../imagens/iconfinder_Display_menu_mobile_mobile_menu_phone_menu_1886912%201.png);
+    }
+    #menu_mobile ul{
+        width: 300px;
+        text-align: center;
+        height: 1300px;  
+        margin-left: 0px;
+        list-style: none;
+        margin-top: 35px;
+        position: absolute;
+        display: none;
+    }
+    #menu_mobile ul li{
+        height: 130px;
+        width: inherit;
+        background-color: rgba(0, 0, 0, 0.96);
+        box-sizing: border-box;
+        padding-top: 40px;
+    }
+    #menu_mobile ul li a{
+        font-size: 40px;
+    }
+    #menu_mobile:hover ul{
+       display: block;
+       margin-left: 100px;
+       transition: 1s;
+    }
+
+    /* SEÇÃO DO CABECALHO */
+    header{
+        width: 1500px;
+        height: 500px;
+        background-image: url(../imagens/cabecalho.png);
+    }
+    #seta{
+        width: 160px;
+        height: 160px;
+        border-radius: 20px;
+        position: fixed;
+        right:0px;
+        bottom: 300px;
+        margin-right: 5px;
+    }
+    #seta
+    img {
+        width:160px;
+        height: 160px;
+    }
+    /* SEÇÃO SOBRE O SITE */
+    #sobre{
+        width: 100%;
+        height: 1260px;
+        background-color: black;  
+    }
+    #sobre .conteudo{
+        background-color: white; 
+    }
+    .sobre_img{
+        float: left;
+        height: 200px;
+        width: 200px;
+        display: none;
+    }
+    #s03{
+        width: 650px;
+        height: 450px;
+        background-image: url(../imagens/so3.jpg);
+    }
+    #sobre_texto{
+        min-height: 50px;
+        height: auto;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* SEÇÃO PERSONAGENS */
+
+    #personagens{
+        width: 100%;
+        height: 1800px;
+        background-color: black;  
+    }
+    .main-container, #corpo_slider{
+        width: 1200px;
+        height: 1600px;
+    }
+
+    .slideshow {
+        height:inherit;
+        width: inherit;
+        overflow: hidden;
+    }
+
+    .slide_selection {
+        width:inherit;
+        height:100px;
+        margin-top: 5px;
+    }
+    .selector {
+        width:100px;
+        height:inherit;
+        float:left;
+        margin-right:25px;
+        margin-left: 25px;
+        background-color:#360168;
+        border-radius:50px;
+    }
+
+    .slideshowarea {
+        width: 100000px;
+        height: inherit;
+    }
+    .slide {
+        height: 1500px;
+        width: inherit;
+        float: left;
+    }
+    .slide_txt{
+       min-height: 200px;
+       height: auto;
+       width: inherit;
+       margin-top: 0px;
+       float: left;
+    }
+    .slide_txt h2{
+        text-transform: uppercase;
+        font-size: 60px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .slide_img{
+        display: none;
+    }
+    .slide_img2{
+        height: 650px;
+        width: 650px;
+        margin-top: 30px;
+        margin-left: 265px;
+        float: left;
+    }
+
+    #slide11{
+        background-image: url(../imagens/slide1.png);
+    }
+    #slide21{
+        background-image: url(../imagens/slide2.png);
+    }
+    #slide31{
+        background-image: url(../imagens/slide3.png);
+    }
+    #slide41{
+        background-image: url(../imagens/slide4.png);
+    }
+    #slide51{
+        background-image: url(../imagens/slide5.png);
+    }
+    #slide61{
+        background-image: url(../imagens/slide6.png);
+    }
+    #slide71{
+        background-image: url(../imagens/slide7.png);
+    }
+    #slide81{
+        background-image: url(../imagens/slide8.png);
+    }
+
+
+    /* SEÇÃO FILMES */
+    #filmes{
+        width: 100%;
+        height: 2470px;
+
+    }
+    #filmes h1{
+        margin-bottom: 0px;
+    }
+    .filmes_img{
+        width: 900px;
+        height: 550px;
+    }
+    .filmetitulomob{
+        width: 1200px;
+        text-align: center;
+    }
+    #f01{
+        background-image: url(../imagens/filmes.png);
+    }
+    #f02{
+        background-image: url(../imagens/filmes2.png);
+    }
+    .filmes_txt{
+        min-height: 50px;
+        height: auto;
+        width: 1200px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    /* SEÇÃO MARVEL */
+    #marvel{
+        width: 1200px;
+        height: 1870px;
+        background-color: black; 
+    }
+    #marvel_txt{
+        width: 1200px;
+        height: inherit;
+    }
+    #marvel_txt P{
+        text-align: left;
+    }
+    #marvel_img2{
+        width: 900px;
+        height: 463px;
+        background-image: url(../imagens/marvel.png);
+    }
+    #p_marvel{
+        display: none;
+    }
+    /* SEÇÃO CURIOSIDADES */
+    #curiosidades{
+        width: 100%;
+        height: 6950px;
+        background-color: black; 
+    }
+    .curiosidades_txt{
+        display: none;
+    }
+    .curiosidades_txtmobi{
+       min-height: 70px;
+        height: auto;
+        width: 1200px; 
+        margin-top: 20px;
+    }
+    .curiosidades_txtmobi P{
+       text-align: justify; 
+    }
+    #curiosidades .conteudo h2{
+        display: none;
+    }
+    .curiosidades_img{
+        float: left;
+        margin-left: 220px;
+        display: none;
+    }
+    .curiosidades_imgmobi{
+       height: 800px;
+       width: 800px; 
+       margin-bottom: 20px;
+       margin-top: 10px;
+    }
+    #c0111{
+        background-image: url(../imagens/c.png);
+    }
+    #c0211{
+        background-image: url(../imagens/c2.png);
+    }
+    #c0311{
+        background-image: url(../imagens/c3.png);
+    }
+    #c0411{
+        background-image: url(../imagens/c4.png);
+    }
+    .curiosidades_txt2{
+        min-height: 20px;
+        height: auto;
+        width: 1200px;
+    }
+    .curiosidades_txt2 p{
+        text-align: justify;
+    }
+    /* SEÇÃO FANARTS */
+    #fanarts{
+        height: 12130px;
+        width: 100%;
+    }
+    .fan_form2{
+        height: 730px;
+        width: 1084px;
+        margin-bottom: 30px;
+    }
+    .fan_form1{
+        height: 1550px;
+        width: 1084px;
+        margin-bottom: 30px;
+    }
+    #fan_botao{
+        width: 700px;
+        border-radius: 100px;
+        height: 200px;
+        background-color: black;
+        padding-top: 50px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    #fan_botao a{
+        font-family: "Lucida Bright";
+        font-size: 80px;
+    }
+    #fan_botao:hover{
+        background-color: #14171c;
+    }
+    #fn01{
+        background-image: url(../imagens/fn1.png);
+    }
+    #fn02{
+        background-image: url(../imagens/fn2.png);
+    }
+    #fn03{
+        background-image: url(../imagens/fn3.png);  
+    }
+    #fn04{
+        background-image: url(../imagens/fn4.png);
+    }
+    #fn05{
+        background-image: url(../imagens/fn5.png);
+    }
+    #fn06{
+        background-image: url(../imagens/fn6.png);  
+    }
+    #fn07{
+        background-image: url(../imagens/fn7.png);
+    }
+    #fn08{
+        background-image: url(../imagens/fn8.png);
+    }
+    #fn09{
+        background-image: url(../imagens/fn9.png);  
+    }
+
+    /* SEÇÃO MÚSICAS */
+    #musicas{
+        width: 100%;
+        height: 5810px;
+        background-color: black;
+    }
+    .audio{
+        width: 900px;
+        margin-bottom: 10px;
+    }
+    .desktop{
+        display: none;
+    }
+    #musicas_imgum, #musicas_imgdois{
+        width: 1222px;
+        height: 688px;
+        background-image: url(../imagens/musicas.png);
+    }
+    #musicas_imgdois{
+        background-image: url(../imagens/musicas2.png);
+        margin-top: 30px;
+    }
+    .musicas_fundo h2{
+        margin-bottom: 5px;
+        font-size: 55px;
+    }
+    .musicas_caixa{
+        width: 1200px;
+        min-height:1000px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    /* SEÇÃO HQS*/
+    #hqs{
+        width: 100%;
+        height: 45470px;
+    }
+    .caixa_hqs{
+        width: 832px;
+        min-height:20px;
+        height: auto;
+        text-align: center;
+    }
+    .caixa_hqs a{
+        font-size: 70px;
+    }
+    .hqs_itens h1{
+       padding-top: 0px; 
+       box-sizing: border-box;
+       font-size: 40px;
+       margin-bottom: 0px;
+       margin-top: 20px;
+    }
+    .hqs_img{
+        width: inherit;
+        height: 1280px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+/*     PARTE O1*/
+    #hq_0_1mob{
+        background-image: url(../imagens/hq0_1mob.png);
+    }
+    #hq_1mob{
+        background-image: url(../imagens/hq_1mob.png);
+    }
+    #hq_2mob{
+        background-image: url(../imagens/hq_2.png);
+    }
+    #hq_3mob{
+        background-image: url(../imagens/hq_3.png);
+    }
+    #hq_4mob{
+        background-image: url(../imagens/hq_4.png);
+    }
+
+    /*PARTE 02 */
+    #hq_5mob{
+        background-image: url(../imagens/hq_5.png);
+    }
+    #hq_6mob{
+        background-image: url(../imagens/hq_6.png);
+    }
+    #hq_7mob{
+        background-image: url(../imagens/hq_7.png);
+    }
+    #hq_8mob{
+        background-image: url(../imagens/hq_8.png);
+    }
+    #hq_9mob{
+        background-image: url(../imagens/hq_9.png);
+    }
+
+    /* PARTE 03*/
+    #hq_10mob{
+        background-image: url(../imagens/hq_10.png);
+    }
+    #hq_11mob{
+        background-image: url(../imagens/hq_11.png);
+    }
+    #hq_12mob{
+        background-image: url(../imagens/hq_12.png);
+    }
+    #hq_13mob{
+        background-image: url(../imagens/hq_13.png);
+    }
+    #hq_14mob{
+        background-image: url(../imagens/hq_14.png);
+    }
+
+    /*PARTE 04*/
+    #hq_15mob{
+        background-image: url(../imagens/hq_15.png);
+    }
+    #hq_16mob{
+        background-image: url(../imagens/hq_16.png);
+    }
+    #hq_17mob{
+        background-image: url(../imagens/hq_17.png);
+    }
+    #hq_18mob{
+        background-image: url(../imagens/hq_18.png);
+    }
+    #hq_19mob{
+        background-image: url(../imagens/hq_19.png);
+    }
+
+    /*PARTE 05*/
+    #hq_20mob{
+        background-image: url(../imagens/hq_20.png);
+    }
+    #hq_21mob{
+        background-image: url(../imagens/hq_21.png);
+    }
+    #hq_22mob{
+        background-image: url(../imagens/hq_22.png);
+    }
+    #hq_23mob{
+        background-image: url(../imagens/hq_23.png);
+    }
+    #hq_24mob{
+        background-image: url(../imagens/hq_24.png);
+    }
+
+    /*PARTE 06*/
+    #hq_25mob{
+        background-image: url(../imagens/hq_25.png);
+    }
+    #hq_26mob{
+        background-image: url(../imagens/hq_26.png);
+    }
+    #hq_27mob{
+        background-image: url(../imagens/hq_27.png);
+    }
+    #hq_esmob{
+        background-image: url(../imagens/hq_es.png);
+    }
+    #hq_p1mob{
+        background-image: url(../imagens/hq_p1.png);
+    }
+
+    /* SEÇÃO ENTREVISTAS */
+    #entrevistas{
+        width: 100%;
+        height: 2800px;
+        background-color: black;
+    }
+    .video{
+    width: 1037px;
+    height: 612px;
+    margin-bottom: 45px;
+    }
+    .entrevis_caixa{
+      width: 1200px;
+      min-height: 2px;
+      height: auto;
+      text-align: center;
+    }
+    
+    /* SEÇÃO NOTICIAS*/
+    #noticias{
+        width: 100%;
+        height: 5900px;
+    }
+    .noticias_caixa{
+        width: 1200px;
+        min-height: 12px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .noticias_imagem, .noticias_imagem1{
+        width: inherit;
+    }
+    #n1{
+        background-image: url(../imagens/n1.png);
+        height: 900px;
+    }
+    #n4{
+        background-image: url(../imagens/n2.png);
+        height: 966px;
+    }
+    #n3{
+        background-image: url(../imagens/n3.png);
+        height: 972px;
+    }
+    .noticias_txt{
+        min-height: 10px;
+        height: auto;
+        width: inherit;
+    }
+    .noticias_txt p{
+        text-align: left;
+    }
+    /* SEÇÃO RODAPE */
+    footer{
+        width: 100%;
+        height: 1200px;
+        background-color: black;
+    }
+    footer .conteudo{
+        background-color: black;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+    #caixa_icone{
+        height:150px;
+        width: 600px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .icon{
+        float: left;
+        height: inherit;
+        width: 150px;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: rebeccapurple;
+    }
+    .icon:hover{
+        background-color: goldenrod;
+        cursor: pointer;
+    }
+    #i1{
+        background-image: url(../imagens/iconfinder_facebook_square_black_107119.png);
+    }
+    #i2{
+        background-image: url(../imagens/iconfinder_twitter_square_black_107068.png);
+    }
+    #i3{
+        background-image: url(../imagens/iconfinder_instagram_square_black_107097.png);
+    }
+    #logo1, #logo2{
+        width: 1000px;
+        background-size: 1000px 278px;
+        background-repeat: no-repeat;
+        min-height: 400px;
+        height: auto;
+        background-image: url(../imagens/logo1.png);
+    }
+    #logo2{
+        background-size: 1000px 361px;
+        background-image: url(../imagens/rodape2.png);
+    }
+}
+
+/* ENTRE 300PX A 500PX */
+@media screen and (min-device-width:300px) and (max-device-width:500px){
+    h1{
+        font-size: 95px;
+    }
+    p{
+      font-size: 60px;  
+    }
+    h2, h3{
+      font-size: 75px;
+    }
+    h3{
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* SEÇÃO DO MENU */
+    #caixa_menu{
+        width: 100%;
+        height: 185px;
+        background-color: black;
+    }
+    #caixa_menuMob{
+        width: 655px;
+    }
+    #menuMobile_logo{
+        width: 435px;
+    }
+    #menu_mobile{
+        width: 165px;
+        height: 165px;
+    }
+    #menu_mobile ul{
+        width: 400px;
+        height: 1800px;  
+    }
+    #menu_mobile ul li{
+        height: 180px;
+    }
+    #menu_mobile ul li a{
+        font-size: 60px;
+    }
+
+    /* SEÇÃO DO CABECALHO */
+    header{
+        height: 700px;
+    }
+    /* SEÇÃO SOBRE O SITE */
+    #sobre{
+        height: 1900px;  
+    }
+    #s03{
+        width: 850px;
+        height: 600px;
+    }
+    /* SEÇÃO PERSONAGENS */
+    #personagens{
+        height: 2280px;
+    }
+    .main-container, #corpo_slider{
+        width: 1200px;
+        height: 2050px;
+    }
+
+    .slideshow {
+        height:inherit;
+        width: inherit;
+        overflow: hidden;
+    }
+
+    .slide_selection {
+        height:100px;
+    }
+    .selector {
+        width:100px;
+    }
+
+    .slideshowarea {
+        width: 100000px;
+    }
+    .slide {
+        height: 2200px;
+    }
+    .slide_txt h2{
+        font-size: 75px;
+    }
+    
+    /* SEÇÃO FILMES */
+    #filmes{
+        width: 100%;
+        height: 3500px;
+    }
+    #filmes h1{
+        margin-bottom: 0px;
+    }
+    .filmes_img{
+        width: 1000px;
+        height: 605px;
+    }
+    /* SEÇÃO MARVEL */
+    #marvel{
+        width: 1200px;
+        height: 2730px;
+    }
+    #marvel_txt{
+        width: 1200px;
+    }
+    #marvel_img2{
+        width: 900px;
+        height: 463px;
+    }
+    /* SEÇÃO CURIOSIDADES */
+    #curiosidades{
+        width: 100%;
+        height: 9500px;
+        background-color: black; 
+    }
+    /* SEÇÃO FANARTS */
+    #fanarts{
+        height: 12300px;
+    }
+    #fan_botao{
+        width: 800px;
+        border-radius: 150px;
+        height: 300px;
+        padding-top: 83px;
+    }
+    #fan_botao a{
+        font-size: 105px;
+    }
+   
+    /* SEÇÃO MÚSICAS */
+    #musicas{
+        height: 7320px;
+    }
+    #musicas_imgum, #musicas_imgdois{
+        width: 1344px;
+        height: 757px;
+    }
+
+    /* SEÇÃO HQS*/
+    #hqs{
+        width: 100%;
+        height: 50140px;
+    }
+    .caixa_hqs{
+        margin-bottom: 40px;
+    }
+    .caixa_hqs a{
+        font-size: 100px;
+    }
+    /* SEÇÃO ENTREVISTAS */
+    #entrevistas{
+        height: 3110px;
+    }
+    /* SEÇÃO NOTICIAS*/
+    #noticias{
+        height: 8400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
